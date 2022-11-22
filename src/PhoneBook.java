@@ -10,9 +10,6 @@ public class PhoneBook {
     }
     public List<Record> getAllRecords() {
         return AllRecords;
-//        for (Record eachRecord : AllRecords) {
-//            Record.printRecord(eachRecord);
-//        }
     }
 
     public void createRecord(Record record) throws PhoneNumberAlreadyExistsException {
